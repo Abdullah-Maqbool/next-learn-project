@@ -22,7 +22,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         </label>
         <textarea
           id="promptInput"
-          className="form_textarea"
+          className="form_textarea !mt-0"
           value={post.prompt}
           onChange={(e) => setPost({ ...post, prompt: e.target.value })}
           required
@@ -39,7 +39,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         </label>
         <input
           id="tagInput"
-          className="form_input"
+          className="form_input !mt-0"
           value={post.tag}
           onChange={(e) => setPost({ ...post, tag: e.target.value })}
           required

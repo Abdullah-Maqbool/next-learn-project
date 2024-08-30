@@ -16,7 +16,7 @@ const Nav = () => {
       setProviders(response);
     };
 
-    setupProviders(); // this line keeps making API calls infinitely for now
+    setupProviders();
   }, []);
 
   return (
